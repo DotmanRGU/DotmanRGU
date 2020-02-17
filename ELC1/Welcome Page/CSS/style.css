@@ -1,0 +1,109 @@
+@import "Colours.css";
+/*position*/
+body{
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    width: 800px;
+    margin-left: 350px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+header>h1{
+    float: left;
+    font-family:"Imprint MT Shadow";
+}
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float: right;
+}
+#menu>ul>li a{
+    display: block;
+    border: 1px solid;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    box-shadow: 5px 10px #888888;
+}
+#main>ul>li a{
+    display: block;
+    border: 1px solid;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    box-shadow: 5px 10px #888888;
+
+}
+#video{
+    width: 600px;
+    height: 300px;
+    margin-left: 600px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+main>h3{
+    margin-left: 700px;
+
+}
+/*Selector*/
+#main>ul>li a:hover{
+    color: purple;
+}
+#menu>ul>li a:hover{
+    color: purple;}
+
+
+/*selection list style*/
+select{
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+    float: right;
+    margin-top: 2px;
+}
+/*photo size*/
+#elc{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+#login,#account{
+    width: 60px;
+    margin-top: 1px;
+    float:right;
+}
+
+#welcome{
+    margin-top: 150px;
+    width: 1600px;
+    height: 600px;
+    margin-right: 80px;
+    margin-left: 100px;
+
+}
+
+/*font*/
+h1,h2,h3,h4,h5,p{
+    font-family:'Raleway',sans-serif;
+    font-weight: 400;
+}
+
+#social{
+   margin-top: 1px;
+    /*margin-right: auto;*/
+    margin-left:300px;
+}
+#facebook,#instagram,#twitter,#youtube{
+    padding: 10px;
+}
+

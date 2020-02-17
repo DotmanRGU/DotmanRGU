@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* TEXT */
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+  /*  background: black; */
+    width: 400px;
+}
+
+p, li {
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 100px;
+    color: yellow;
+}
+
+a, span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+/* HEADER SPECIFIC STYLING */
+
+
+header {
+    background-color: darkslategray;
+    width: 1000px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo {
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid;
+}
+
+header h1 {
+    margin:60px;
+    padding: 0;
+}
+
+/* MAIN SECTION LAYOUT */
+
+
+main {
+    /* Main sized and centred */
+    /*background-color: white;*/
+    background-image:url(../images/bg11.png);
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: black;
+    border-style: double;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback {
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+}
+
+.vertical-center {
+    /* Centre content vertically */
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.column {
+    width: 400px;
+    background-color: darkslategray;
+    padding: 10px;
+    justify-content: center;
+}
+
+.column label {
+    float: left;
+    padding-right: 5px;
+}
+
+.column input {
+    float: right;
+    padding: 5px;
+    width: 150px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    /* Inputs above have padding 5px and border 2px each side */
+    width: 164px;
+    font-size: 20px;
+}
+
+#password:hover, #userID:hover {
+    background-color: yellow;
+}
+#links input:hover {
+    color: black;
+    background-color: yellow;
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* FOOTER SPECIFIC STYLING */
+
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
