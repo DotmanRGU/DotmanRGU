@@ -1,8 +1,10 @@
-Dear Sir,
+Dr. Stewart,
 
-Kindly disregard every other file older than 1st May,2020 I could not creat a new folder as time is almost again me.
+This is my Intranet System Development cousrsework CMM007. Kindly disregard every other file older than 1st May,2020.
 
-The old files were used during practice.
+I couldn't create a new folder as time is almost again me.
+
+The old files were created during lab practice.
 
 Thank you for your understanding
 
